@@ -18,13 +18,13 @@ footer {
 }
 .footer-left-div ul li,
 .footer-right-div ul li{
-    margin-bottom: 10px; /* Adjust the percentage as needed */
+    margin-bottom: 10px; 
 }
 .footer-left-div ul li{
-    text-align: start;/* Adjust the percentage as needed */
+    text-align: start;
 }
 .footer-right-div ul li{
-    text-align: end;/* Adjust the percentage as needed */
+    text-align: end;
 }
 .footer-div {
     width: 80%;
@@ -36,7 +36,7 @@ footer {
 
 .footer-left-div,
 .footer-right-div {
-    flex-basis: 48%; /* Adjust the percentage as needed */
+    flex-basis: 48%; 
 }
 .footer-left-div ul,
 .footer-right-div ul {

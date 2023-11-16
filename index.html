@@ -6,8 +6,6 @@
     <title>Assignment 1</title>
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap">
-
-    
 </head>
 <body>
     <div class="hero-div">
@@ -28,22 +26,18 @@
             
             <script>
                 function convertDiv() {
-                  // Get input value
+                  
                   var emailInputValue = document.getElementById('emailInput').value;
                   console.log(emailInputValue);
-                  // Create a new div with the thank you text
+                  
                   var thankYouDiv = document.createElement('div');
                   thankYouDiv.innerHTML = '<p><b>Thank you!</b></p>';
-
                   thankYouDiv.style.fontSize = '41.51px';
                   thankYouDiv.style.fontWeight = '700';
                   thankYouDiv.style.fontFamily = "inter";
                   thankYouDiv.style.paddingTop = "25px";
                   thankYouDiv.style.paddingRight = "20%";
 
-                 
-
-                  // Replace the register div with the thank you div
                   var registerDiv = document.getElementById('registerDiv');
                   registerDiv.parentNode.replaceChild(thankYouDiv, registerDiv);
 

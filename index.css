@@ -115,16 +115,5 @@ button {
     cursor: pointer;
 }
 
-/* New styles for the thank-you message */
-.thank-you-style {
-    color: black;
-    width: 226px;
-    height: 62px;
-    padding-top: 25px;
-    padding-right: 20%;
-    font-size: 41.51px;
-    font-weight: 700;
-    line-height: 62.27px;
-    font-family: "inter";
-    display: none;
-}
+
+
